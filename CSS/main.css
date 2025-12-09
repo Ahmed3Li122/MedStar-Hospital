@@ -116,8 +116,10 @@ header .container .links li a:hover {
 /* Header End */
 /* Landing Start */
 .landing {
-    background: url('../Images/bg-home.jpg') no-repeat center center/cover;
-    min-height: 100vh;
+    background: url('../Images/bg-home.jpg');
+    background-size: cover;
+    background-position: 50%;
+    min-height: 100dvh;
     padding-top: 80px;
 }
 .landing .container {
@@ -866,6 +868,10 @@ header .container .links li a:hover {
     }
     header .container .links li a {
         font-size: 14px;
+    }
+    .landing {
+        background-position: 60%;
+        padding-top: 0;
     }
     .landing .container .txt p:first-of-type {
         margin-bottom: 20px;
