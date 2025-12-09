@@ -973,25 +973,35 @@ header .container .links li a:hover {
     header .container .links li a {
         font-size: 12px;
     }
+    .landing {
+        background-size: cover;
+        background-position: 0;
+        padding-top: 90px;
+    }
     .landing .container .txt p:first-of-type {
+        font-size: 12px;
         margin-bottom: 30px;
     }
     .landing .container .txt h1 {
-        font-size: 30px;
+        font-size: 28px;
         margin-bottom: 30px;
         max-width: 500px;
     }
+    .landing .container .txt p:last-of-type {
+        margin-bottom: 60px;
+        font-size: 13px;
+    }
     .landing .container .txt h1 br {
         display: none;
+    }
+    .landing .container .txt .btns .btn {
+        font-size: 13px;
     }
     .contact .img {
         display: none;
     }
     .contact .content {
         grid-template-columns: 1fr;
-    }
-    .landing .container .txt .btns .btn {
-        font-size: 15px;
     }
     .about .content .left .links {
         flex-direction: column;
